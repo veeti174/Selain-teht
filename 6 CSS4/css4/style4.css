@@ -1,5 +1,5 @@
 .container {
-    width: 80%;
+    width: 100%;
     margin: auto;
 }
 
@@ -29,10 +29,14 @@ ul {
     margin: 0;
 }
 
+li {
+    width: calc(100% / 3);
+}
+
 li a {
     background-color: darkblue;
     color: floralwhite;
-    width: 10rem;
+    width: 100%;
     display: block;
     text-align: center;
     line-height: 3rem;
@@ -47,10 +51,11 @@ main {
     background-color: #9c9cac;
     padding: 1rem;
     display: flex;
+    flex-wrap: wrap;
 }
 
 section {
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -60,7 +65,7 @@ section h2 {
 }
 
 article {
-    width: 50%;
+    width: 100%;
     padding: 1rem;
     box-sizing: border-box;
 }
@@ -87,7 +92,7 @@ figcaption {
 
 aside {
     background-color: gainsboro;
-    width: 20%;
+    width: 100%;
 }
 
 footer {
@@ -98,7 +103,7 @@ footer {
 
 form {
     background-color: floralwhite;
-    width: 30%;
+    width: 80%;
     margin: auto;
     padding: 1rem;
     display: flex;
@@ -109,4 +114,29 @@ input {
     display: block;
     width: 100%;
     padding: 1rem;
+}
+
+@media screen and (min-width: 769px) {
+    .container {
+        width: 80%;
+    }
+
+    section {
+        width: 80%;
+    }
+
+    aside {
+        width: 20%;
+    }
+
+    article {
+        width: 50%;
+    }
+
+    li {
+        width: 10rem;
+    }
+    form {
+        width: 40%;
+    }
 }
