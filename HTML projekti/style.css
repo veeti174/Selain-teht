@@ -79,7 +79,7 @@ nav {
 ul {
     display: flex;
     list-style-type: none;
-    background-color: darkslategray;
+    background-color: #4A90E2;
     padding: 0;
     margin: 0;
 }
@@ -98,8 +98,8 @@ p s {
 }
 
 li a {
-    background-color: darkblue;
-    color: floralwhite;
+    background-color: #FF6F61;
+    color: #333333;
     width: 100%;
     display: block;
     text-align: center;
@@ -113,7 +113,7 @@ li a:hover {
 }
 
 main {
-    background-color: #9c9cac;
+    background-color: #4A90E2;
     padding: 1rem;
     display: flex;
     flex-wrap: wrap;
@@ -157,19 +157,12 @@ figcaption {
 
 
 footer {
-    background-color: teal;
+    background-color: #50E3C2;
     padding: 1rem;
     text-align: center;
 }
 
-form {
-    background-color: floralwhite;
-    width: 80%;
-    margin: auto;
-    padding: 1rem;
-    display: flex;
-    flex-wrap: wrap;
-}
+
 
 input {
     display: block;
