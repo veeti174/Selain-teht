@@ -7,11 +7,12 @@
 html {
     font-family: Verdana, Arial, sans-serif;
     scroll-behavior: smooth;
+
  }
 
 a {
     text-decoration: none;
-    color: black;
+    color: #333333;
  }
 
 #down {
@@ -26,7 +27,7 @@ body {
 }
 
 header {
-    background-color: cadetblue;
+    background-color: #F5F7FA;
     padding: 1rem;
 }
 
@@ -40,18 +41,39 @@ header {
     width: 100%;
     max-width: 275px;
     height: auto;
-    background-color: black;
+    background-color: #FF6F61;
 }
 
-.background img {
+.wave img {
     width: 100%;
     max-width: 5000px;
     height: auto;
-    background-color: black;
+    background-color: #FF6F61;
+}
+
+.barbie img {
+    width: 100%;
+    max-width: 5000px;
+    height: auto;
+    background-color: #FF6F61;
+}
+
+.minion img {
+    width: 100%;
+    max-width: 5000px;
+    height: auto;
+    background-color: #FF6F61;
+}
+
+.lego img {
+    width: 100%;
+    max-width: 5000px;
+    height: auto;
+    background-color: #FF6F61;
 }
 
 nav {
-    background-color: burlywood;
+    background-color: #50E3C2;
 }
 
 ul {
@@ -87,7 +109,7 @@ li a {
 }
 
 li a:hover {
-    background-color: #0000ff;
+    background-color: #F39C12;
 }
 
 main {
@@ -124,9 +146,9 @@ figure {
 }
 
 img {
-    border-radius: 10px 10px 0;
     width: 100%;
     height: auto;
+    border-radius: 10px 10px 0;
 }
 
 figcaption {
