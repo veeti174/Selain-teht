@@ -1,6 +1,7 @@
 .container {
     width: 100%;
     margin: auto;
+    text-align: center;
 }
 
 html {
@@ -57,7 +58,7 @@ li {
 }
 
 p s {
-
+    width: 100%;
 }
 
 li a {
@@ -147,7 +148,7 @@ input {
     }
 
     section {
-        width: 100%;
+        width: 80%;
     }
 
     article {
@@ -157,7 +158,6 @@ input {
     li {
         width: 10rem;
     }
-
     form {
         width: 40%;
     }
